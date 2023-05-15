@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './App.css'
 
 function App() {
@@ -44,6 +45,8 @@ return (
 
       <input type="submit" value="Add User" />
     </form>
+    <br />
+    <Link to="/users"><button>Go to Added Users</button></Link>
   </>
 )
 }
